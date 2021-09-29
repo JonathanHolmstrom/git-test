@@ -24,8 +24,10 @@ testGas.refill(testBoat)
 # works in Python but will crash in C++/Java
 # DONT DO THIS (instantiate a object of an abstract class)
 testVehicle = Vehicle()
-testVehicle.drive()
+testVehicle.getName()
 
 
 testBike = Bicycle()
 testBike.turn()
+
+testCar.turnWheel()
