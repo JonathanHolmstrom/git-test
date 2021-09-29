@@ -20,7 +20,7 @@ testMotorizedVehicle = MotorizedVehicle("Engine")
 
 testGas.refill(testMotorizedVehicle)
 testGas.refill(testCar)
-testGas.refill(testBoat)
+testGas.refill(testCar)
 
 # works in Python but will crash in C++/Java
 # DONT DO THIS (instantiate a object of an abstract class)
