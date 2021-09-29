@@ -31,3 +31,5 @@ testBike = Bicycle()
 testBike.turn()
 
 testCar.turnWheel()
+
+testGas.refill(testCar)
