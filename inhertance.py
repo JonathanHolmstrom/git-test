@@ -1,3 +1,4 @@
+from unicycle import Unicycle
 from bicycle import Bicycle
 from vehicle import Vehicle
 from motorized_vehicle import MotorizedVehicle
@@ -19,7 +20,7 @@ testMotorizedVehicle = MotorizedVehicle("Engine")
 
 testGas.refill(testMotorizedVehicle)
 testGas.refill(testCar)
-testGas.refill(testMotorizedVehicle)
+testGas.refill(testCar)
 
 # works in Python but will crash in C++/Java
 # DONT DO THIS (instantiate a object of an abstract class)
@@ -33,3 +34,5 @@ testBike.turn()
 testCar.turnWheel()
 
 testGas.refill(testCar)
+testUnicycle = Unicycle()
+testUnicycle.drive()
