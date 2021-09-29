@@ -7,5 +7,5 @@ class Boat(MotorizedVehicle) :
     def refillTank(self, amountLiters): # override
         super().refillTank(amountLiters) # optional
         
-        print("Running Boat Refill")
+        print("Running Boat refillTank")
         # specific stuff for boat

@@ -10,4 +10,4 @@ class MotorizedVehicle(Vehicle) :
 
     def refillTank(self, amountLiters) :
         """ Refills the gas tank of the vehicle """
-        print("Running MotorizedVehicle Refill")
+        print("Running MotorizedVehicle refillTank")
