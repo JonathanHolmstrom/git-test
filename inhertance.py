@@ -1,3 +1,4 @@
+from unicycle import Unicycle
 from bicycle import Bicycle
 from vehicle import Vehicle
 from motorized_vehicle import MotorizedVehicle
@@ -31,3 +32,6 @@ testBike = Bicycle()
 testBike.turn()
 
 testCar.turnWheel()
+
+testUnicycle = Unicycle()
+testUnicycle.drive()
